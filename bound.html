@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bound · Curve and Bound</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Newsreader:opsz,wght@6..72,400;6..72,450&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1 class="page-title">Bound</h1>
+    </header>
+    <p class="mono">Argued. Not a forecast. Open forecasts: 0.</p>
+    <p>A bound is a ceiling that no scheduled observation fully settles. Each claim below names the evidence that would withdraw it. None of them is a date.</p>
+
+    <h2 class="section">Device efficiency</h2>
+    <p>On published CMOS models, further energy-efficiency gains are large but not open-ended. Epoch’s estimate puts the H100 near 1.4 × 10<sup>12</sup> FLOP/J, and a 16-bit physical model near a geometric mean of 2.9 × 10<sup>14</sup> FLOP/J. That is about a 200-fold gap. Their distribution says there is a 50 percent chance gains cease before roughly that 200-fold improvement.</p>
+    <p class="source">Source: Epoch AI, Limits to the energy efficiency of CMOS microprocessors, 14 December 2023.</p>
+    <p>Withdrawn if a measured, cited device exceeds that 16-bit mean by an order of magnitude, or if the model’s stated assumptions are replaced by a later Epoch estimate.</p>
+
+    <h2 class="section">A training-run wall, not a ceiling</h2>
+    <p>Moving data, not the Landauer limit, is the nearer constraint on one training run. Epoch’s model finds that a run past about 2 × 10<sup>28</sup> FLOP in three months becomes infeasible at good utilization with current techniques. A more aggressive batch-size assumption pushes that fall in utilization out to about 3 × 10<sup>30</sup> FLOP. This is an engineering bound. It is not the bound on what a later stack can do.</p>
+    <p class="source">Source: Epoch AI, Data movement bottlenecks to large-scale model training, 2 November 2024.</p>
+    <p>Withdrawn for the stated technique if a documented run past 2 × 10<sup>28</sup> FLOP finishes in three months at utilization comparable to current frontier runs.</p>
+
+    <h2 class="section">What the ceiling is not</h2>
+    <p>Nothing in these bounds says a system cannot do most checkable cognitive work faster than a person, in parallel. They also do not say it can know what an experiment has not yet measured. Sample efficiency is not implied by scale. A pretraining loss curve is not a bound on fluid intelligence.</p>
+    <p>Withdrawn if a pre-registered check shows a system acquiring a novel skill, on a held-out task a person finds easy, at a data and compute cost within an order of magnitude of a skilled person. No such instrument is named in version 0.2. The five domain lines on the first screen stay empty.</p>
+
+    <p class="source">Issued 9 October 2026. Version 0.2. Not a correction of the first screen.</p>
+    <footer>
+      <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+      · <a href="https://creativecommons.org/licenses/by/4.0/">license</a>
+      · <a href="about.html">About</a>
+    </footer>
+  </main>
+</body>
+</html>
