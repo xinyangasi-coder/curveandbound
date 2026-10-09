@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claim classes · Curve and Bound</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Newsreader:opsz,wght@6..72,400;6..72,450&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1 class="page-title">Claim classes</h1>
+    </header>
+    <p class="mono">Version 0.1 · 9 October 2026. Controlling. Published unchanged as v0.3.</p>
+    <p>Pages, charts, and forecasts that conflict with this page are wrong. This is the scoring contract. It was written before any forecast was published. A claim that cannot be filed under these rules is not published.</p>
+
+    <h2 class="section">Four classes</h2>
+    <p>Every public claim carries exactly one class. The class is visible next to the claim. It is not implied by tone.</p>
+    <p><strong>Measured.</strong> A number or fact copied from a named external source, with the retrieval date and a stable URL. A measurement is not a forecast. A recalculation is a separate claim, classed Modeled, and it links to the source number it departs from. Required: source, publication or vintage date, retrieval date, the exact quantity, the unit, and the known bias not being corrected.</p>
+    <p><strong>Extrapolated.</strong> A continuation of a published series under a stated fit. Required: the series, the fit window, the functional form, the interval, and at least one break condition. “Trends continue” is not a break condition. “AI will be able to …” without the if-clause is rejected.</p>
+    <p><strong>Modeled.</strong> The output of a named model under a frozen parameter set. Changing a parameter creates a new version. A model output is not, by itself, a prediction that the world will match it.</p>
+    <p><strong>Argued.</strong> A bound, a distinction, or a path claim that no scheduled observation can fully settle. Required: the proposition, the premises, and the evidence that would withdraw or narrow it. Argued claims are not scored. “Superintelligence by 2032” is not Argued. It is a forecast, and it needs a resolution rule or it is not published.</p>
+
+    <h2 class="section">What may be scored</h2>
+    <p>Only dated forecasts are scored. Measured and Argued claims are never wins or losses. A forecast ships only if these are frozen: one-sentence claim no stronger than the resolution block, method class, operational definition, named resolution source, absolute resolve-by date, interval or binary cut, falsifier, version id. Missing any line, it does not ship.</p>
+
+    <h2 class="section">Resolution</h2>
+    <p>Authors do not resolve forecasts. Resolution is a comparison of the frozen block to the named source. The block wins over a stronger headline. A late source is waited on. Silence is not a No. If the source will never publish that quantity, the row is Annulled, not repaired. An annulment is not a hit and not a miss.</p>
+    <p>A forecast can resolve Yes, No, a numeric value, Annulled, or Superseded. The old version remains readable.</p>
+
+    <h2 class="section">No silent edits</h2>
+    <p>Wording that would change how a forecast resolves is a new version. The old text stays. Spelling and broken links may be fixed without a version bump.</p>
+
+    <h2 class="section">Out of scope</h2>
+    <p>Version 0.1 does not score equity prices, unemployment, extinction or catastrophe probabilities, policy recommendations, or claims that resolve on a person or a lab using a particular phrase. Those topics do not share a confidence mark with a capability measurement.</p>
+
+    <h2 class="section">Filing minimum</h2>
+    <p>A ledger row has: id, claim, class, definition, source, opened, resolve-by, interval, falsifier, version, supersedes, status. Empty scored fields mean the row is a draft.</p>
+    <p class="source">See also <a href="opening-threshold.html">Opening threshold</a> and <a href="domains.html">Domains</a>.</p>
+    <footer>
+      <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+      · <a href="https://creativecommons.org/licenses/by/4.0/">license</a>
+      · <a href="about.html">About</a>
+    </footer>
+  </main>
+</body>
+</html>
